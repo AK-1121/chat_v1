@@ -1,0 +1,11 @@
+Python 2.7.x
+
+Here is a simple chat server.
+It broadcasts text messages from client to all other clients.
+Also it broadcasts information about connection/disconnection of clients to server.
+
+You have to specify IP-address and PORT number in command line when you start server and clients.
+
+Every client esteblishes two connections with the server: one for sending messages and one for receiving them.
+
+You can stop sever or client with Ctrl+C combination.
